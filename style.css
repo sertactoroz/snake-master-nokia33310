@@ -1,0 +1,95 @@
+
+
+html, body{
+  margin-top: 10%;
+  text-align: center;
+  font-family: 'Seven Segment', sans-serif;
+  position: relative;
+
+
+}
+
+#countDownBox{
+  display: 'flexbox';
+  width: fit-content;
+  margin: 30% auto;
+  left: 0;
+  right: 0; 
+  padding: 20px;
+  margin-top: 10%;
+  position:absolute;
+  font-size: 2.5rem;
+  text-decoration: green;
+}
+
+#headerBox{
+  display:flexbox;
+  border-radius: 20px;
+  width: 120px;
+  margin: 30% auto;
+  left: 0;
+  right: 0; 
+  padding: 20px;
+  margin-top: 5%;
+  position:absolute;
+  background-color: rgb(5, 97, 5);
+ 
+}
+
+span.startKey{
+  font-size: 1.2rem;
+  text-decoration-color: rgb(20, 10, 133);
+}
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  width: 256px;
+  height: 256px;
+  display:flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  background-color: rgb(72, 114, 114);
+}
+
+.grid div {
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+}
+
+.snake {
+  background-color: rgb(3, 68, 24);
+}
+ /*  CANNOT CHANGE SHAPE OF APPLE =( */
+.apple {
+  border-radius: 10px;
+  width: 16px;
+  height: 16px;
+  background-color: rgb(96, 14, 3);
+}
+
+.start{
+  font-family: 'Seven Segment', sans-serif;
+  width: 256px;
+  height: 50px;
+  border-radius: 0 0 15px 15px;
+}
+
+.score {
+  text-align: center;
+  display: 'flexbox';
+  padding-top: 5px;
+  width: fit-content;
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0; 
+  background-color: grey;
+  width: 256px;
+  height: 35px;
+  border-radius:15px 15px 0 0;
+}
+
+#scoreBoard{
+  font-size: 30px;
+}
