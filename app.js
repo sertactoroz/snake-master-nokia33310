@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const scoreDisplay = document.querySelector('span#scoreBoard')
   const startBtn = document.querySelector('.start')
   const headerBox = document.getElementById('headerBox')
-  
+ 
+  // 
   const width = 16
   let currentIndex = 0 //so first div in our grid
   let appleIndex = 0 //so first div in our grid
@@ -32,9 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // ANLAMADIM!
     interval = setInterval(moveOutcomes, intervalTime)
-    
   }
-
   //function that deals with ALL the ove outcomes of the Snake
   function moveOutcomes() {
 
@@ -69,7 +68,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     squares[currentSnake[0]].classList.add('snake')
   }
-
   //generate new apple once apple is eaten
   function randomApple() {
     do{
@@ -132,7 +130,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // oyun başladığında keypressi simon gamedeki gibi deactive et. (var started = false;)
   
-
-
-
 });
